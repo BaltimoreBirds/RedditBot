@@ -12,7 +12,7 @@ if not os.path.isfile("config_bot.py"):
     exit(1)
 
 # Create the Reddit instance
-user_agent = ("PyFor Eng bot 0.1")
+user_agent = ("Ding-Bot 0.1")
 r = praw.Reddit(user_agent=user_agent)
 
 # and login
